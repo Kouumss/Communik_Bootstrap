@@ -21266,8 +21266,8 @@ readers do not read off random characters that represent icons */
   }
   body header .container #koums .col-4 {
     width: 100% !important;
-    margin: auto;
-    padding: 2vh 0;
+    margin: 0 !important;
+    padding: 2vh 0 0 0 !important;
   }
   body header .container #koums .col-4 img {
     width: 100%;
@@ -21341,6 +21341,16 @@ readers do not read off random characters that represent icons */
   }
   body main .last .row .col-4 img {
     width: 40% !important;
+  }
+  body footer .footer div .fofo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  body footer .footer div .row .col-4 {
+    width: 100%;
+  }
+  body footer .footer div .row .col-4 img {
+    display: none;
   }
 }
 @media (max-width: 768px) {
@@ -21456,6 +21466,9 @@ readers do not read off random characters that represent icons */
   }
   body main .last img {
     width: 50% !important;
+  }
+  body footer .row .col-4 img {
+    width: 15% !important;
   }
 }
 body main .trois {

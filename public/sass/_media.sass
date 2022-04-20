@@ -13,8 +13,8 @@
 
                     .col-4
                         width: 100% !important
-                        margin: auto
-                        padding: 2vh 0
+                        margin: 0 !important
+                        padding: 2vh 0 0 0 !important
                         img
                             width: 100%
                             margin-left: 27%
@@ -81,6 +81,18 @@
                         width: 100%
                         img
                             width: 40% !important
+
+        footer
+            .footer
+                div
+                    .fofo
+                        display: grid
+                        grid-template-columns: repeat(3, 1fr)
+                    .row
+                        .col-4
+                            width: 100%   
+                            img
+                                display: none
 
 @media  (max-width: 768px)
 
@@ -193,3 +205,8 @@
             .last
                 img
                     width: 50% !important
+        footer
+            .row
+                .col-4
+                    img
+                        width: 15% !important
